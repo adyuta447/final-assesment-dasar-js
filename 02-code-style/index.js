@@ -11,7 +11,7 @@ function getBookById(id) {
     return null;
   }
 
-  return book;
+  return book.id;
 }
 
 function saveBook(book) {
